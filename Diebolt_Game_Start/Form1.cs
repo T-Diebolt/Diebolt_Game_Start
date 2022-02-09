@@ -30,6 +30,8 @@ namespace Diebolt_Game_Start
 
         private void startButton_Click(object sender, EventArgs e)
         {
+            //Balls
+            
             //Giving new sound inputs
             SoundPlayer Beep = new SoundPlayer(Properties.Resources.Beep);
             SoundPlayer Error = new SoundPlayer(Properties.Resources.Error);
